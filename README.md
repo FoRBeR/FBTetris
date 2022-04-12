@@ -46,7 +46,7 @@ My class - stopwatch. Starts the stopwatch when the object is created.
 
 Working with windows is divided into 2 files. main.py is a file with main classes, next_figured.py is an auxiliary file, let's look at it first.
 ### _next_figures.py_
-Shapes are drawn in this file to display the next shape. This takes up quite a lot of space, but it only needs to be done once when starting the application.
+Figures are drawn in this file to display the next figure. This takes up quite a lot of lines of code, but it only needs to be done once when starting the application.
 ### _main.py_
 In this file, I describe all the windows, as well as their work. Each window has its own class. __The following is a description of the classes.__
 ### ControlClass
@@ -61,7 +61,7 @@ This class works with the game and handles events related to it.
 ##### Methods:
 * `new_game(self)` Returns the object to its factory settings.
 * `event_work(self, event)` Works with pygame events. Returns True if a loss has been determined. Otherwise False. Handles 3 important kinds of events: userevent, keydown and keyup.
-> `USEREVENT` is used to move the pieces down and control game speed.
+> `USEREVENT` is used to move the figures down and control game speed.
 
 > `KEYDOWN` is used to detect WASD button pressed.
 
