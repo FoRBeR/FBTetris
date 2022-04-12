@@ -2,14 +2,14 @@
 
 At the time of publication, this is my most serious project. Based on a not very complex game (Tetris), I tried to write a whole game, adding a few things that were new to me.
 ## Things that I have implemented:
-* [The game itself](https://github.com/FoRBeR/FBTetris/edit/main/README.md#game-gamepy-file)
-* [Window system implemented with OOP](https://github.com/FoRBeR/FBTetris/edit/main/README.md#windows-mainpy-and-next_figurespy-files)
-* [Account system with data storage on the server](https://github.com/FoRBeR/FBTetris/edit/main/README.md#account-work-accountpy-file)
+* [The game itself](#Game)
+* [Window system implemented with OOP](#Windows)
+* [Account system with data storage on the server](#Account)
 * Also I compiled it first in .exe and then in setup.exe (You can download FBSetup.exe [here](https://drive.google.com/file/d/1W37PBUKz2k8AWsnhq_YuxuHU8iFts4Fc/view?usp=sharing))
 
 ---
 
-## Game (game.py file)
+## <a name="Game"></a> Game (game.py file)
 
 The whole game is collected in a separate file.
 You can see 3 classes:
@@ -42,7 +42,7 @@ My class - stopwatch. Starts the stopwatch when the object is created.
 
 ---
 
-## Windows (main.py and next_figures.py files)
+## <a name="Windows"></a> Windows (main.py and next_figures.py files)
 
 Working with windows is divided into 2 files. main.py is a file with main classes, next_figured.py is an auxiliary file, let's look at it first.
 ### _next_figures.py_
@@ -97,7 +97,7 @@ The main difference is the _show password_ button.
 
 ---
 
-## Account work (account.py file)
+## <a name="Account"></a> Account work (account.py file)
 In this file, I described the class that works with the account and with the server. __The following is a description of the class.__
 ### User
 It is worth explaining how the account system works in my project.
